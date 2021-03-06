@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class ifStatement {
-    public static void main(String[] arg){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         int age, id;

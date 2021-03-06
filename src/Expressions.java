@@ -1,6 +1,6 @@
 
 public class Expressions {
-    public static void main(String[] arg){
+    public static void main(String[] args){
         // expressions = operands & operations
         //operands = values, variables, numbers, quantity
         //operations = + - / *
