@@ -10,7 +10,7 @@ public class StringMethods {
 //        String result = name.toUpperCase();
 //        String result = name.trim();
 //        String result = name.repeat(4);
-//        String result = name.replace('o', 'a');
+        String result = name.replace('o', 'a');
 
         System.out.println(result);
     }
