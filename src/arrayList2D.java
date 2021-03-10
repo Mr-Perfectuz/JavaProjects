@@ -3,6 +3,8 @@ import java.util.*;
 public class arrayList2D {
     public static void main(String[] args){
 
+        ArrayList<ArrayList<String>> GrocceryList = new ArrayList<>();
+
         ArrayList<String> bakeryLIst = new ArrayList<String>();
         bakeryLIst.add("Pasta");
         bakeryLIst.add("Garlic Bread");
@@ -17,6 +19,10 @@ public class arrayList2D {
         DrinksLIst.add("Cola");
         DrinksLIst.add("Coffe");
 
-        System.out.println(ProduceLIst);
+        GrocceryList.add(bakeryLIst);
+        GrocceryList.add(ProduceLIst);
+        GrocceryList.add(DrinksLIst);
+
+        System.out.println(GrocceryList);
     }
 }
