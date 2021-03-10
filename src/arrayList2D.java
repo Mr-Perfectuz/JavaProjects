@@ -23,6 +23,6 @@ public class arrayList2D {
         GrocceryList.add(ProduceLIst);
         GrocceryList.add(DrinksLIst);
 
-        System.out.println(GrocceryList);
+        System.out.println(GrocceryList.get(2).get(1));
     }
 }
