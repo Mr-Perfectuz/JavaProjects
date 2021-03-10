@@ -10,9 +10,11 @@ public class wrapperClasses {
 
     public static int factorial(int number){
         if (number ==1){
+            System.out.println("factorial (" + number + ") = 1");
             return 1;
         }
         else {
+            System.out.println("factorial (" + number + ") = " + number+ " * Factorial ( " + (number - 1) +")");
             return number * factorial(number-1);
         }
     }
