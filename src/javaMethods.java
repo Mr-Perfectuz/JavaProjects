@@ -16,13 +16,13 @@ public class javaMethods {
         num2 = scanner.nextInt();
 
 
-//        System.out.println("What is your name ? ");
-//        String name = scanner.next();
-//
-//        System.out.println("What is your age ? ");
-//        int age = scanner.nextInt();
+        System.out.println("What is your name ? ");
+        String name = scanner.next();
 
-//        hello(name, age);
+        System.out.println("What is your age ? ");
+        int age = scanner.nextInt();
+
+        hello(name, age);
         int z = sum(num1, num2);
         System.out.println("The sum of "+ num1 +" and "+ num2+" is "+ z);
     }
