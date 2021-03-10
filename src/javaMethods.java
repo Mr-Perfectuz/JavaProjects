@@ -9,10 +9,14 @@ public class javaMethods {
         System.out.println("What is your name ? ");
         String name = scanner.nextLine();
 
-        hello(name);
+
+        System.out.println("What is your age ? ");
+        int age = scanner.nextInt();
+
+        hello(name, age);
     }
 
-   static void hello(String name){
-        System.out.println("Hello "+ name);
+   static void hello(String name, int age){
+        System.out.println("Hello "+ name+", I am "+age+" years old");
     }
 }
