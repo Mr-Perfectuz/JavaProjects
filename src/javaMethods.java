@@ -23,7 +23,7 @@ public class javaMethods {
         int age = scanner.nextInt();
 
         hello(name, age);
-        int z = sum(num1, num2);
+        int z = num1 + num2;
         System.out.println("The sum of "+ num1 +" and "+ num2+" is "+ z);
     }
 
@@ -32,7 +32,7 @@ public class javaMethods {
     }
 
     static int sum(int num1, int num2){
-        int add = num1 + num2;
-        return add;
+
+        return num1 + num2;
     }
 }
