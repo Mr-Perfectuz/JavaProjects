@@ -21,6 +21,7 @@ public class calculateRadius {
         long GMT1 = currentHours + 9;
 
 
+
         System.out.println("Current time is "+ currentHours+ " hour "+ currentMinutes+ " minutes "+ currentSeconds+" seconds");
         System.out.println("Current time(GMT + 9): "+ GMT1 + ":" + currentMinutes+ ":"+ currentSeconds);
         System.out.println("Current time(GMT + 5): "+ GMT+ ":" + currentMinutes+ ":"+ currentSeconds);
