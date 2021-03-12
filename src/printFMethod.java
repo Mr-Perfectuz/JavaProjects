@@ -15,7 +15,7 @@ public class printFMethod {
 //        System.out.printf("%c", myChar);
 //        System.out.printf("%s", myString);
 //        System.out.printf("%d", myInt);
-        System.out.printf("%f", myDouble);
+//        System.out.printf("%f", myDouble);
 
     }
 }
