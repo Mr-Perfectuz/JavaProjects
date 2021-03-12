@@ -10,6 +10,12 @@ public class calculateRadius {
 //        System.out.println(date);
 
 
+        // Ulug'bek  61.100   -16.075
+        // inomjon     134.200    +57.025
+        // sarvar 3200            -73.975
+        // men 110200             +33.025
+        // jami 308.700/4 = 77.175
+
         long totalMillisecond = System.currentTimeMillis();
         long totalSeconds = totalMillisecond  / 1000;
         long currentSeconds = totalSeconds % 60;
@@ -19,7 +25,6 @@ public class calculateRadius {
         long currentHours = totalHours % 24;
         long GMT = currentHours + 5;
         long GMT1 = currentHours + 9;
-
 
 
         System.out.println("Current time is "+ currentHours+ " hour "+ currentMinutes+ " minutes "+ currentSeconds+" seconds");
