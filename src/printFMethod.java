@@ -18,7 +18,16 @@ public class printFMethod {
 
 //         [precision]
         // sets number of digits of precision when outputting floating- point values.
-        System.out.printf(" You have this much money ");
+//        System.out.printf(" You have this much money %.1f ", myDouble);
+
+//        [flags]
+//        adds an effect to output based on the flag added to format specifier
+//        - : left-justifier
+//        + : output a plus(+) or minus(-) sign for a numeric value
+//        0 : numeric values are zero-padded
+//        , : comma grouping separator if number > 1000
+
+        System.out.printf(" You have this much money %,f ", myDouble);
 
 //        System.out.printf( "%b", myBoolean);
 //        System.out.printf("%c", myChar);
